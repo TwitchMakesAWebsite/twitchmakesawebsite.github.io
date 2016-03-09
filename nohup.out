@@ -1,0 +1,60 @@
+Starting project 'Twitch Makes a Website'
+Starting directory @ /home/ec2-user/twitchmakesawebsite.github.io
+Connected to chat
+03:11:27.958 [main] INFO  org.pircbotx.PircBotX - ---Starting Connect attempt 1/5---
+03:11:27.973 [main] DEBUG org.pircbotx.PircBotX - [12/13 address left from irc.twitch.tv, 0/1 hostnames left] Atempting to connect to irc.twitch.tv/192.16.64.175 on port 6667
+03:11:27.997 [main] INFO  org.pircbotx.PircBotX - Connected to server.
+03:11:27.998 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event SocketConnectEvent()
+03:11:28.006 [main] INFO  org.pircbotx.output.OutputRaw - CAP LS
+03:11:28.020 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event OutputEvent(rawLine=CAP LS, lineParsed=[CAP, LS])
+03:11:28.020 [main] INFO  org.pircbotx.output.OutputRaw - PASS oauth:xqxigydollch1mqan7a1o9jolf1jcb
+03:11:28.020 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event OutputEvent(rawLine=PASS oauth:xqxigydollch1mqan7a1o9jolf1jcb, lineParsed=[PASS, oauth:xqxigydollch1mqan7a1o9jolf1jcb])
+03:11:28.020 [main] INFO  org.pircbotx.output.OutputRaw - NICK Mimerme
+03:11:28.020 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event OutputEvent(rawLine=NICK Mimerme, lineParsed=[NICK, Mimerme])
+03:11:28.020 [main] INFO  org.pircbotx.output.OutputRaw - USER PircBotX 8 * :PircBotX 2.1 Java IRC bot - github.com/thelq/pircbotx
+03:11:28.021 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event OutputEvent(rawLine=USER PircBotX 8 * :PircBotX 2.1 Java IRC bot - github.com/thelq/pircbotx, lineParsed=[USER, PircBotX, 8, *, PircBotX 2.1 Java IRC bot - github.com/thelq/pircbotx])
+03:11:28.025 [main] INFO  org.pircbotx.InputParser - :tmi.twitch.tv CAP * LS :twitch.tv/tags twitch.tv/commands twitch.tv/membership
+03:11:28.026 [main] DEBUG org.pircbotx.InputParser - Starting Cap Handlers [EnableCapHandler(cap=multi-prefix, ignoreFail=true), EnableCapHandler(cap=away-notify, ignoreFail=true)]
+03:11:28.026 [main] DEBUG org.pircbotx.cap.EnableCapHandler - Unsupported capability multi-prefix
+03:11:28.026 [main] DEBUG org.pircbotx.InputParser - Cap Handler finished EnableCapHandler(cap=multi-prefix, ignoreFail=true)
+03:11:28.026 [main] DEBUG org.pircbotx.cap.EnableCapHandler - Unsupported capability away-notify
+03:11:28.026 [main] DEBUG org.pircbotx.InputParser - Cap Handler finished EnableCapHandler(cap=away-notify, ignoreFail=true)
+03:11:28.026 [main] INFO  org.pircbotx.output.OutputRaw - CAP END
+03:11:28.026 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event OutputEvent(rawLine=CAP END, lineParsed=[CAP, END])
+03:11:28.028 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event UnknownEvent(line=:tmi.twitch.tv CAP * LS :twitch.tv/tags twitch.tv/commands twitch.tv/membership)
+03:11:28.095 [main] INFO  org.pircbotx.InputParser - :tmi.twitch.tv 001 mimerme :Welcome, GLHF!
+03:11:28.096 [main] DEBUG org.pircbotx.InputParser - Logged onto server.
+03:11:28.096 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event ConnectEvent()
+03:11:29.027 [main] INFO  org.pircbotx.output.OutputRaw - JOIN #twitchmakesawebsite 
+03:11:29.027 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event OutputEvent(rawLine=JOIN #twitchmakesawebsite , lineParsed=[JOIN, #twitchmakesawebsite])
+03:11:29.028 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event ServerResponseEvent(code=1, rawLine=:tmi.twitch.tv 001 mimerme :Welcome, GLHF!, parsedResponse=[mimerme, Welcome, GLHF!])
+03:11:29.028 [main] INFO  org.pircbotx.InputParser - :tmi.twitch.tv 002 mimerme :Your host is tmi.twitch.tv
+03:11:29.028 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event ServerResponseEvent(code=2, rawLine=:tmi.twitch.tv 002 mimerme :Your host is tmi.twitch.tv, parsedResponse=[mimerme, Your host is tmi.twitch.tv])
+03:11:29.029 [main] INFO  org.pircbotx.InputParser - :tmi.twitch.tv 003 mimerme :This server is rather new
+03:11:29.029 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event ServerResponseEvent(code=3, rawLine=:tmi.twitch.tv 003 mimerme :This server is rather new, parsedResponse=[mimerme, This server is rather new])
+03:11:29.029 [main] INFO  org.pircbotx.InputParser - :tmi.twitch.tv 004 mimerme :-
+03:11:29.029 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event ServerResponseEvent(code=4, rawLine=:tmi.twitch.tv 004 mimerme :-, parsedResponse=[mimerme, -])
+03:11:29.029 [main] INFO  org.pircbotx.InputParser - :tmi.twitch.tv 375 mimerme :-
+03:11:29.029 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event ServerResponseEvent(code=375, rawLine=:tmi.twitch.tv 375 mimerme :-, parsedResponse=[mimerme, -])
+03:11:29.030 [main] INFO  org.pircbotx.InputParser - :tmi.twitch.tv 372 mimerme :You are in a maze of twisty passages, all alike.
+03:11:29.030 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event ServerResponseEvent(code=372, rawLine=:tmi.twitch.tv 372 mimerme :You are in a maze of twisty passages, all alike., parsedResponse=[mimerme, You are in a maze of twisty passages, all alike.])
+03:11:29.031 [main] INFO  org.pircbotx.InputParser - :tmi.twitch.tv 376 mimerme :>
+03:11:29.031 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event MotdEvent(motd=ou are in a maze of twisty passages, all alike.)
+03:11:29.032 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event ServerResponseEvent(code=376, rawLine=:tmi.twitch.tv 376 mimerme :>, parsedResponse=[mimerme, >])
+03:11:29.121 [main] INFO  org.pircbotx.InputParser - :mimerme!mimerme@mimerme.tmi.twitch.tv JOIN #twitchmakesawebsite
+03:11:30.027 [main] INFO  org.pircbotx.output.OutputRaw - WHO #twitchmakesawebsite
+03:11:30.028 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event OutputEvent(rawLine=WHO #twitchmakesawebsite, lineParsed=[WHO, #twitchmakesawebsite])
+03:11:31.028 [main] INFO  org.pircbotx.output.OutputRaw - MODE #twitchmakesawebsite
+03:11:31.029 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event OutputEvent(rawLine=MODE #twitchmakesawebsite, lineParsed=[MODE, #twitchmakesawebsite])
+03:11:31.034 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event JoinEvent(channel=Channel(name=#twitchmakesawebsite, channelId=3a1b8a2b-73c0-46d7-8f13-2c08c92b03cf, bot=Version{PircBotX 2.1 Java IRC bot - github.com/thelq/pircbotx} Connected{true} Server{irc.twitch.tv} Port{6667}, output=org.pircbotx.Channel$1@6f195bc3, mode=, topic=, topicTimestamp=0, createTimestamp=0, topicSetter=null, moderated=false, noExternalMessages=false, inviteOnly=false, secret=false, channelPrivate=false, topicProtection=false, channelLimit=-1, channelKey=null, modeChangeLatch=null, modeChangeLock=java.lang.Object@51e2adc7), user=User(super=UserHostmask(extbanPrefix=null, nick=Mimerme, login=mimerme, hostname=mimerme.tmi.twitch.tv), userId=593ba922-a17c-489c-8ad0-010b16d150d4, realName=, awayMessage=null, ircop=false, server=, hops=0), userHostmask=UserHostmask(extbanPrefix=null, nick=mimerme, login=mimerme, hostname=mimerme.tmi.twitch.tv))
+03:11:31.034 [main] INFO  org.pircbotx.InputParser - :mimerme.tmi.twitch.tv 353 mimerme = #twitchmakesawebsite :mimerme
+03:11:31.035 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event ServerResponseEvent(code=353, rawLine=:mimerme.tmi.twitch.tv 353 mimerme = #twitchmakesawebsite :mimerme, parsedResponse=[mimerme, =, #twitchmakesawebsite, mimerme])
+03:11:31.035 [main] INFO  org.pircbotx.InputParser - :mimerme.tmi.twitch.tv 366 mimerme #twitchmakesawebsite :End of /NAMES list
+03:11:31.037 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event UserListEvent(channel=Channel(name=#twitchmakesawebsite, channelId=3a1b8a2b-73c0-46d7-8f13-2c08c92b03cf, bot=Version{PircBotX 2.1 Java IRC bot - github.com/thelq/pircbotx} Connected{true} Server{irc.twitch.tv} Port{6667}, output=org.pircbotx.Channel$1@6f195bc3, mode=, topic=, topicTimestamp=0, createTimestamp=0, topicSetter=null, moderated=false, noExternalMessages=false, inviteOnly=false, secret=false, channelPrivate=false, topicProtection=false, channelLimit=-1, channelKey=null, modeChangeLatch=null, modeChangeLock=java.lang.Object@51e2adc7), users=[User(super=UserHostmask(extbanPrefix=null, nick=Mimerme, login=mimerme, hostname=mimerme.tmi.twitch.tv), userId=593ba922-a17c-489c-8ad0-010b16d150d4, realName=, awayMessage=null, ircop=false, server=, hops=0)], complete=false)
+03:11:31.037 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event ServerResponseEvent(code=366, rawLine=:mimerme.tmi.twitch.tv 366 mimerme #twitchmakesawebsite :End of /NAMES list, parsedResponse=[mimerme, #twitchmakesawebsite, End of /NAMES list])
+03:11:31.037 [main] INFO  org.pircbotx.InputParser - :tmi.twitch.tv 421 mimerme WHO :Unknown command
+03:11:31.037 [main] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event ServerResponseEvent(code=421, rawLine=:tmi.twitch.tv 421 mimerme WHO :Unknown command, parsedResponse=[mimerme, WHO, Unknown command])
+03:11:41.984 [bot1-shutdownhook] INFO  org.pircbotx.output.OutputRaw - QUIT :
+03:11:41.985 [bot1-shutdownhook] DEBUG o.p.h.m.ThreadedListenerManager - Recieved event OutputEvent(rawLine=QUIT :, lineParsed=[QUIT, ])
+03:11:41.985 [main] INFO  org.pircbotx.PircBotX - Socket is closed, stopping read loop and shutting down
+03:11:41.985 [main] DEBUG org.pircbotx.PircBotX - ---PircBotX shutdown started---
